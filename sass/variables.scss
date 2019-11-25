@@ -1,0 +1,54 @@
+$lightblue: #C7F7FF;
+$medblue: #89C0C9;
+$darkblue: #3a5E63;
+$lightbrown: #C9A689;
+$darkbrown: #7C593C;
+$lightgrey: #d4d4d4;
+$darkgrey: #222;
+
+$font-size: 16px;
+$line: 1.6;
+
+html{
+    font-size: $font-size;
+    font-family: 'Josefin Sans', ‘Trebuchet MS’, Helvetica, sans-serif; /* default for whole page */
+    line-height: $line;
+}
+
+.bg-header{
+    background-color: $lightblue;
+    color: $darkgrey;
+    border-bottom: 1rem solid $medblue;
+    border-top: 1rem solid $darkblue;
+    position: relative;
+}
+
+.bg-header:before,
+.bg-header:after{
+    content:"";
+    position:absolute;
+    bottom:-1rem;
+    width:30%;
+    height:1rem;
+    background-color: $darkblue;
+}
+
+.bg-focal{
+    background-color: $lightbrown;
+    color: $darkbrown;
+}
+
+.bg-content1{
+    background-color: #fff;
+    color: $darkgrey;
+}
+
+.bg-content2{
+    background-color: $lightblue;
+    color: $lightbrown;
+}
+
+.bg-footer{
+    background-color: $lightblue;
+    color: $lightbrown;
+}

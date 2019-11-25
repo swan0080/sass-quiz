@@ -1,0 +1,26 @@
+// main SASS file
+@import url("");
+@import 'mixins.scss';
+@import 'variables.scss';
+
+body {
+    @include default-type();
+}
+
+ul {
+    @include ul();
+}
+
+html {
+    @include html();
+}
+header {
+    @include header();
+}
+
+nav {
+    @include nav();
+}
+
+
+

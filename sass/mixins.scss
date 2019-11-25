@@ -1,0 +1,38 @@
+@mixin default-type {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin ul {
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    color: #222;    
+    font-size: 1.414rem;
+    letter-spacing: 0.25rem;
+    border:1px solid #d4d4d4; 
+    border-bottom: none;
+    padding:1.0rem 2rem;
+    line-height: 1;
+    background-color: #fff;
+    list-style: none;
+}
+
+@mixin html {
+    font-size: 16px;
+    font-family: 'Josefin Sans', ‘Trebuchet MS’, Helvetica, sans-serif; /* default for whole page */
+    line-height: 1.6;
+
+}
+
+@mixin header {
+    color: #7C593C;
+    letter-spacing: 0.1rem;
+
+}
+
+@mixin nav {
+    padding:2rem 0;
+    clear: both;
+    
+}
